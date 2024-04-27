@@ -1,7 +1,11 @@
 {
   "name": "equity-calculator",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "author": {
+    "name": "Vipul Goel",
+    "email": "vipul2008@gmail.com"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
