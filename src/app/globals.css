@@ -4,8 +4,8 @@
 
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --background-start-rgb: 45 212 191;
+  --background-end-rgb: 254 240 138;
   --tw-bg-opacity: 1;
 }
 
@@ -19,7 +19,9 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: rgb(248 250 252 / var(--tw-bg-opacity));
+  background: linear-gradient(to right,
+        transparent,
+        rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
 }
 
 @layer utilities {
